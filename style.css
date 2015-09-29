@@ -1,0 +1,60 @@
+body {
+    background-color: floralwhite;
+}
+
+#header, #main-content, #footer {
+    text-align: center;
+    border: 3px solid #39cccc;
+    background-color: white;
+}
+
+#header {
+    height: 10vh;
+}
+
+#nav {
+    list-style-type: none;
+}
+
+#nav li {
+    display: inline;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+}
+
+a:link, a:visited {
+    width: 120px;
+    font-weight: bold;
+    color: teal;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover, a:active {
+    color: red;
+}
+
+#main-content {
+    height: 80vh;
+}
+
+#footer {
+    height: 10vh;
+}
+
+.title {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    color: red;
+}
+
+.sub-title {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    color: #39cccc;
+}
+
+.about-content {
+    font-family: 'open sans', sans-serif;
+}
