@@ -9,213 +9,685 @@ session_start();
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="en-US" class="no-js">
 <head>
-    <title>Michal Penn</title>
+
+    <!-- ==============================================
+    Title and Meta Tags
+    =============================================== -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <!--    TODO SET AN ICON-->
-    <link href="//fonts.googleapis.com/css?family=Lato:700,300" rel="stylesheet" type="text/css">
-    <link href="external_files/css/normalize.min.css" rel="stylesheet" type="text/css">
-    <link href="external_files/css/style.lite.min.css" rel="stylesheet" type="text/css">
+    <title>Michal Penn</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta description="Site description">
+
+    <!-- ==============================================
+    Favicons
+    =============================================== -->
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+    <link rel="apple-touch-icon" href="assets/images/touch-icon-iphone.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/touch-icon-iphone-retina.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/touch-icon-ipad-retina.png">
+
+    <!-- ==============================================
+    CSS
+    =============================================== -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/styles-orange.css">
+
+    <!-- ==============================================
+    Fonts
+    =============================================== -->
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <!-- ==============================================
+    JS
+    =============================================== -->
+
+    <!--[if lt IE 9]>
+    <script src="assets/js/libs/respond.min.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript" src="assets/js/libs/modernizr.min.js"></script>
 </head>
-<body id="parent">
-<div class="main-container">
-    <!--    TODO PICK A LOGO-->
-    <div class="header">
-        <div class="clearfix">
-            <div class="float-left logo">
-                <h1>
-                    <a href="#">
-                        <img src="" alt=""/>
-                    </a>
+
+<body data-spy="scroll" data-target="#main-nav" data-offset="200">
+
+<!--=== PAGE PRELOADER ===-->
+<div id="page-loader"><span class="page-loader-gif"></span></div>
+
+
+<!-- ==============================================
+MAIN NAV
+=============================================== -->
+<div id="main-nav" class="navbar navbar-fixed-top">
+
+    <div class="container">
+
+        <div class="navbar-header">
+
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#site-nav">
+                <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+            </button>
+
+            <!--======= NAME ========-->
+            <a class="navbar-brand" href="#home">Michal Penn</a>
+
+        </div>
+
+        <div id="site-nav" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="sr-only">
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#about"><i class="fa fa-user"></i> About Me</a>
+                </li>
+                <li>
+                    <a href="#skills"><i class="fa fa-pie-chart"></i> Skills</a>
+                </li>
+                <li>
+                    <a href="#portfolio"><i class="fa fa-th"></i> Works</a>
+                </li>
+                <li>
+                    <a href="#contact"><i class="fa fa-comments-o"></i> Contact Me</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+</div><!--End main-nav -->
+
+<!-- ==============================================
+HEADER
+=============================================== -->
+<header id="home">
+    <div class="container text-center">
+
+        <div class="hello">
+            <p>HELLO</p>
+            <h1>I AM MICHAL PENN</h1>
+            <p class="p2">AND</p>
+            <H2>I AM A WEB DEVELOPER</H2>
+        </div>
+
+    </div>
+</header><!--End home header -->
+
+<!-- ==============================================
+ABOUT
+=============================================== -->
+<section id="about" class="bg1">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-xs-12">
+                <h1 class="big-text orange wow fadeInDown text-center">
+                    <i class="fa fa-user"></i>
+                    About Me
+                </h1>
+                <p class="about-text wow fadeInDown">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet a purus sit amet elementum. Nulla accumsan lacus ut congue sagittis. Vestibulum eu viverra sapien. Maecenas porttitor varius ex, scelerisque rhoncus sapien. Morbi iaculis dapibus tortor. Aenean hendrerit orci sit amet risus tempus mollis. In vitae felis leo. Suspendisse potenti. Quisque ipsum leo, faucibus sed quam nec, ultrices vehicula neque.
+                </p>
+            </div>
+
+            <!-- ==== PHOTO ==== -->
+            <div class="col-sm-6">
+                <div id="trigger1"></div>
+                <div id="pin1" class="imageCont">
+                    <img class="wow rollIn image" data-wow-offset="200" src="assets/images/about.jpg" alt="" />
+                </div>
+            </div>
+
+            <!-- ==== TIMELINE ==== -->
+            <div class="col-sm-6 timeline">
+                <i id="timeline-top" class="fa fa-clock-o"></i>
+
+                <div class="wow fadeInRight" data-wow-offset="200">
+                    <i class="fa fa-smile-o wow swing" data-wow-offset="200" data-wow-delay="1s"></i>
+                    <h3>1990.01.01.</h3>
+                    <p>
+                        <span>Born</span>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis, quam vel iaculis blandit, massa nisl laoreet ante, eu elementum elit odio ut nulla. In facilisis leo ac erat ultricies luctus id vel eros. Sed laoreet vitae massa a maximus.                            </p>
+                </div>
+
+                <div class="wow fadeInRight" data-wow-offset="200">
+                    <i class="fa fa-book wow swing" data-wow-offset="200" data-wow-delay="1s"></i>
+                    <h3>1996 - 2004</h3>
+                    <p>
+                        <span>Grade school</span>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis, quam vel iaculis blandit, massa nisl laoreet ante, eu elementum elit odio ut nulla. In facilisis leo ac erat ultricies luctus id vel eros. Sed laoreet vitae massa a maximus.                            </p>
+                </div>
+
+                <div class="wow fadeInRight" data-wow-offset="200">
+                    <i class="fa fa-book wow swing" data-wow-offset="200" data-wow-delay="1s"></i>
+                    <h3>2004 - 2008</h3>
+                    <p>
+                        <span>High school</span>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis, quam vel iaculis blandit, massa nisl laoreet ante, eu elementum elit odio ut nulla. In facilisis leo ac erat ultricies luctus id vel eros. Sed laoreet vitae massa a maximus.                            </p>
+                </div>
+
+                <div class="wow fadeInRight" data-wow-offset="200">
+                    <i class="fa fa-university wow swing" data-wow-offset="200" data-wow-delay="1s"></i>
+                    <h3>2008</h3>
+                    <p>
+                        <span>Starting University</span>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis, quam vel iaculis blandit, massa nisl laoreet ante, eu elementum elit odio ut nulla. In facilisis leo ac erat ultricies luctus id vel eros. Sed laoreet vitae massa a maximus.                            </p>
+                </div>
+
+                <div class="wow fadeInRight" data-wow-offset="200">
+                    <i class="fa fa-trophy wow swing" data-wow-offset="200" data-wow-delay="1s"></i>
+                    <h3>2010</h3>
+                    <p>
+                        <span>Best Designer Award</span>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis, quam vel iaculis blandit, massa nisl laoreet ante, eu elementum elit odio ut nulla. In facilisis leo ac erat ultricies luctus id vel eros. Sed laoreet vitae massa a maximus.                            </p>
+                </div>
+
+                <div class="wow fadeInRight" data-wow-offset="200">
+                    <i class="fa fa-graduation-cap wow swing" data-wow-offset="200" data-wow-delay="1s"></i>
+                    <h3>2013</h3>
+                    <p>
+                        <span>University of completion</span>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis, quam vel iaculis blandit, massa nisl laoreet ante, eu elementum elit odio ut nulla. In facilisis leo ac erat ultricies luctus id vel eros. Sed laoreet vitae massa a maximus.                            </p>
+                </div>
+
+                <div class="wow fadeInRight" data-wow-offset="200">
+                    <i class="fa fa-briefcase wow swing" data-wow-offset="200" data-wow-delay="1s"></i>
+                    <h3>2013 - 2014</h3>
+                    <p>
+                        <span>Work</span>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis, quam vel iaculis blandit, massa nisl laoreet ante, eu elementum elit odio ut nulla. In facilisis leo ac erat ultricies luctus id vel eros. Sed laoreet vitae massa a maximus.                            </p>
+                </div>
+
+                <div class="wow fadeInRight" data-wow-offset="200">
+                    <i class="fa fa-search wow swing" data-wow-offset="200" data-wow-delay="1s"></i>
+                    <h3>2014 -</h3>
+                    <p>
+                        <span>Freelancer</span>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis, quam vel iaculis blandit, massa nisl laoreet ante, eu elementum elit odio ut nulla. In facilisis leo ac erat ultricies luctus id vel eros. Sed laoreet vitae massa a maximus.                            </p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</section><!--End about section -->
+
+
+<!-- ==============================================
+SKILLS
+=============================================== -->
+<section id="skills" class="bg2">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-xs-12">
+                <h1 class="big-text wow fadeInDown text-center" data-wow-offset="100">
+                    <i class="fa fa-pie-chart"></i>
+                    My skills
                 </h1>
             </div>
-            <!--    MENU-->
-            <div class="float-right">
-                <ul id="top-nav" class="slimmenu">
-                    <li>
-                        <a href="#" target="open-iframe">About</a>
-                    </li>
-                    <li>
-                        <a href="#" target="open-iframe">Skills</a>
-                    </li>
-                    <li>
-                        <a href="#" target="open-iframe">Experience</a>
-                    </li>
-                    <li>
-                        <a href="#" target="open-iframe">Contact Me</a>
-                    </li>
 
-                    <li>
-                        <a href="#">Follow Me On</a>
-                        <ul>
-                            <li>
-                                <a href="#">Facebook</a>
-                            </li>
-                            <li>
-                                <a href="#">Twitter</a>
-                            </li>
-                            <li>
-                                <a href="#">Pinterest</a>
-                            </li>
-                            <li>
-                                <a href="#">Instagram</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#" class="fullscreen tooltip" title="Go Full Screen">
-                            <span class="pictogram">&#xe801;</span>
-                        </a>
-                        <a href="#" class="fullscreenExit tooltip" title="Exit Full Screen">
-                            <span class="pictogram">&#xe802;</span>
-                        </a>
-                    </li>
+            <div class="col-md-3 col-sm-6 text-center">
+                        <span class="chart" data-percent="90">
+                            <span class="title">HTML 5</span>
+                            <span class="percent"></span>
+                        </span>
+            </div>
 
+            <div class="col-md-3 col-sm-6 text-center">
+                        <span class="chart" data-percent="80">
+                            <span class="title">CSS 3</span>
+                            <span class="percent"></span>
+                        </span>
+            </div>
+
+            <div class="col-md-3 col-sm-6 text-center">
+                        <span class="chart" data-percent="60">
+                            <span class="title">jQuery</span>
+                            <span class="percent"></span>
+                        </span>
+            </div>
+
+            <div class="col-md-3 col-sm-6 text-center">
+                        <span class="chart" data-percent="70">
+                            <span class="title">Photoshop</span>
+                            <span class="percent"></span>
+                        </span>
+            </div>
+
+
+            <!--Language-->
+
+            <div class="col-lg-4 col-md-6 skill10 text-center">
+                <p>English</p>
+                <i class="fa fa-circle wow fadeInLeft" data-wow-delay="0s"></i>
+                <i class="fa fa-circle wow fadeInLeft" data-wow-delay=".1s"></i>
+                <i class="fa fa-circle wow fadeInLeft" data-wow-delay=".2s"></i>
+                <i class="fa fa-circle wow fadeInLeft" data-wow-delay=".3s"></i>
+                <i class="fa fa-circle wow fadeInLeft" data-wow-delay=".4s"></i>
+                <i class="fa fa-circle wow fadeInLeft" data-wow-delay=".5s"></i>
+                <i class="fa fa-circle wow fadeInLeft" data-wow-delay=".6s"></i>
+                <i class="fa fa-circle wow fadeInLeft" data-wow-delay=".7s"></i>
+                <i class="fa fa-circle-o wow fadeInLeft" data-wow-delay=".8s"></i>
+                <i class="fa fa-circle-o wow fadeInLeft" data-wow-delay=".9s"></i>
+            </div>
+
+            <div class="col-lg-4 col-md-6 skill10 text-center">
+                <p>Hebrew</p>
+                <i class="fa fa-circle wow fadeInLeft" data-wow-delay="0s"></i>
+                <i class="fa fa-circle wow fadeInLeft" data-wow-delay=".1s"></i>
+                <i class="fa fa-circle wow fadeInLeft" data-wow-delay=".2s"></i>
+                <i class="fa fa-circle wow fadeInLeft" data-wow-delay=".3s"></i>
+                <i class="fa fa-circle wow fadeInLeft" data-wow-delay=".4s"></i>
+                <i class="fa fa-circle-o wow fadeInLeft" data-wow-delay=".5s"></i>
+                <i class="fa fa-circle-o wow fadeInLeft" data-wow-delay=".6s"></i>
+                <i class="fa fa-circle-o wow fadeInLeft" data-wow-delay=".7s"></i>
+                <i class="fa fa-circle-o wow fadeInLeft" data-wow-delay=".8s"></i>
+                <i class="fa fa-circle-o wow fadeInLeft" data-wow-delay=".9s"></i>
+            </div>
+
+            <div class="col-lg-4 col-md-6 skill10 text-center">
+                <p>Spanish</p>
+                <i class="fa fa-circle wow fadeInLeft" data-wow-delay="0s"></i>
+                <i class="fa fa-circle wow fadeInLeft" data-wow-delay=".1s"></i>
+                <i class="fa fa-circle wow fadeInLeft" data-wow-delay=".2s"></i>
+                <i class="fa fa-circle-o wow fadeInLeft" data-wow-delay=".3s"></i>
+                <i class="fa fa-circle-o wow fadeInLeft" data-wow-delay=".4s"></i>
+                <i class="fa fa-circle-o wow fadeInLeft" data-wow-delay=".5s"></i>
+                <i class="fa fa-circle-o wow fadeInLeft" data-wow-delay=".6s"></i>
+                <i class="fa fa-circle-o wow fadeInLeft" data-wow-delay=".7s"></i>
+                <i class="fa fa-circle-o wow fadeInLeft" data-wow-delay=".8s"></i>
+                <i class="fa fa-circle-o wow fadeInLeft" data-wow-delay=".9s"></i>
+            </div>
+
+        </div>
+
+    </div>
+
+</section><!--End skills section -->
+
+<!-- ==============================================
+PORTFOLIO
+=============================================== -->
+<section id="portfolio" class="">
+
+    <div class="container">
+
+        <h1 class="big-text orange wow fadeInDown text-center" data-wow-offset="100">
+            <i class="fa fa-th"></i>
+            My works
+        </h1>
+
+        <!--==== Portfolio Filters ====-->
+        <div id="filter-works">
+            <ul>
+                <li class="active wow fadeInRight" data-wow-delay="0s">
+                    <a href="#" data-filter="*">All</a>
+                </li>
+                <li class="wow fadeInRight" data-wow-delay=".3s">
+                    <a href="#" data-filter=".logo">Logo</a>
+                </li>
+                <li class="wow fadeInRight" data-wow-delay=".6s">
+                    <a href="#" data-filter=".webdesign">Web design</a>
+                </li>
+                <li class="wow fadeInRight" data-wow-delay=".9s">
+                    <a href="#" data-filter=".photography">Photography</a>
+                </li>
+            </ul>
+        </div><!--End portfolio filters -->
+
+    </div>
+
+    <div class="container masonry-wrapper">
+
+        <div id="projects-container">
+
+            <!-- ==== PROJECT ITEM ==== -->
+            <article class="project-item webdesign" data-toggle="modal" data-target=".project-item-1">
+                <img class="img-responsive project-image" src="assets/images/thumb.png"  alt=""><!--Project thumb -->
+                <h2 class="project-title">Webdesign #1</h2><!--Project Title -->
+            </article>
+
+            <!--==== Project Modal ====-->
+            <div class="modal fade project-item-1">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i class="fa fa-times"></i>
+</span><span class="sr-only">Close</span></button>
+                            <h4 class="modal-title">Webdesign #1 <span>webdesign</span></h4><!--Modal Title, Subtitle -->
+                            <img src="assets/images/project.jpg" alt="" />
+                        </div>
+                        <div class="modal-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum egestas lectus, in efficitur metus gravida eu. Duis molestie mauris id pharetra varius. Mauris aliquet ut eros ac iaculis. Duis sagittis faucibus mi sed rhoncus. Sed commodo magna quam, id cursus nibh congue ac. Phasellus sollicitudin orci sapien, id dignissim nulla dapibus id. Cras volutpat orci et nibh convallis, a auctor nisi sodales. Phasellus pulvinar non tellus nec posuere. Maecenas risus dui, interdum et nibh vel, iaculis porttitor purus. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ==== END PROJECT ITEM ==== -->
+
+            <!-- ==== PROJECT ITEM ==== -->
+            <article class="project-item photography logo" data-toggle="modal" data-target=".project-item-2">
+                <img class="img-responsive project-image" src="assets/images/thumb.png"  alt=""><!--Project thumb -->
+                <h2 class="project-title">Photography, logo #1 </h2><!--Project Title -->
+            </article>
+
+            <!--==== Project Modal ====-->
+            <div class="modal fade project-item-2">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i class="fa fa-times"></i>
+</span><span class="sr-only">Close</span></button>
+                            <h4 class="modal-title">Photography, logo #1 <span>photography, logo</span></h4><!--Modal Title, Subtitle -->
+                            <img src="assets/images/project.jpg" alt="" />
+                        </div>
+                        <div class="modal-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum egestas lectus, in efficitur metus gravida eu. Duis molestie mauris id pharetra varius. Mauris aliquet ut eros ac iaculis. Duis sagittis faucibus mi sed rhoncus. Sed commodo magna quam, id cursus nibh congue ac. Phasellus sollicitudin orci sapien, id dignissim nulla dapibus id. Cras volutpat orci et nibh convallis, a auctor nisi sodales. Phasellus pulvinar non tellus nec posuere. Maecenas risus dui, interdum et nibh vel, iaculis porttitor purus. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ==== END PROJECT ITEM ==== -->
+
+            <!-- ==== PROJECT ITEM ==== -->
+            <article class="project-item photography logo" data-toggle="modal" data-target=".project-item-3">
+                <img class="img-responsive project-image" src="assets/images/thumb.png"  alt=""><!--Project thumb -->
+                <h2 class="project-title">Photography, logo #2</h2><!--Project Title -->
+            </article>
+
+            <!--==== Project Modal ====-->
+            <div class="modal fade project-item-3">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i class="fa fa-times"></i>
+</span><span class="sr-only">Close</span></button>
+                            <h4 class="modal-title">Photography, logo #2 <span>photography, logo</span></h4><!--Modal Title, Subtitle -->
+                            <img src="assets/images/project.jpg" alt="" />
+                        </div>
+                        <div class="modal-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum egestas lectus, in efficitur metus gravida eu. Duis molestie mauris id pharetra varius. Mauris aliquet ut eros ac iaculis. Duis sagittis faucibus mi sed rhoncus. Sed commodo magna quam, id cursus nibh congue ac. Phasellus sollicitudin orci sapien, id dignissim nulla dapibus id. Cras volutpat orci et nibh convallis, a auctor nisi sodales. Phasellus pulvinar non tellus nec posuere. Maecenas risus dui, interdum et nibh vel, iaculis porttitor purus. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ==== END PROJECT ITEM ==== -->
+
+            <!-- ==== PROJECT ITEM ==== -->
+            <article class="project-item webdesign" data-toggle="modal" data-target=".project-item-4">
+                <img class="img-responsive project-image" src="assets/images/thumb.png"  alt=""><!--Project thumb -->
+                <h2 class="project-title">Webdesign #2</h2><!--Project Title -->
+            </article>
+
+            <!--==== Project Modal ====-->
+            <div class="modal fade project-item-4">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i class="fa fa-times"></i>
+</span><span class="sr-only">Close</span></button>
+                            <h4 class="modal-title">Webdesign #2 <span>webdesign</span></h4><!--Modal Title, Subtitle -->
+                            <img src="assets/images/project.jpg" alt="" />
+                        </div>
+                        <div class="modal-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum egestas lectus, in efficitur metus gravida eu. Duis molestie mauris id pharetra varius. Mauris aliquet ut eros ac iaculis. Duis sagittis faucibus mi sed rhoncus. Sed commodo magna quam, id cursus nibh congue ac. Phasellus sollicitudin orci sapien, id dignissim nulla dapibus id. Cras volutpat orci et nibh convallis, a auctor nisi sodales. Phasellus pulvinar non tellus nec posuere. Maecenas risus dui, interdum et nibh vel, iaculis porttitor purus. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ==== END PROJECT ITEM ==== -->
+
+            <!-- ==== PROJECT ITEM ==== -->
+            <article class="project-item photography webdesign" data-toggle="modal" data-target=".project-item-5">
+                <img class="img-responsive project-image" src="assets/images/thumb.png"  alt=""><!--Project thumb -->
+                <h2 class="project-title">Photography, webdesign #1</h2><!--Project Title -->
+            </article>
+
+            <!--==== Project Modal ====-->
+            <div class="modal fade project-item-5">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i class="fa fa-times"></i>
+</span><span class="sr-only">Close</span></button>
+                            <h4 class="modal-title">Photography, webdesign #1 <span>photography, webdesign</span></h4><!--Modal Title, Subtitle -->
+                            <img src="assets/images/project.jpg" alt="" />
+                        </div>
+                        <div class="modal-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum egestas lectus, in efficitur metus gravida eu. Duis molestie mauris id pharetra varius. Mauris aliquet ut eros ac iaculis. Duis sagittis faucibus mi sed rhoncus. Sed commodo magna quam, id cursus nibh congue ac. Phasellus sollicitudin orci sapien, id dignissim nulla dapibus id. Cras volutpat orci et nibh convallis, a auctor nisi sodales. Phasellus pulvinar non tellus nec posuere. Maecenas risus dui, interdum et nibh vel, iaculis porttitor purus. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ==== END PROJECT ITEM ==== -->
+
+            <!-- ==== PROJECT ITEM ==== -->
+            <article class="project-item webdesign" data-toggle="modal" data-target=".project-item-6">
+                <img class="img-responsive project-image" src="assets/images/thumb.png"  alt=""><!--Project thumb -->
+                <h2 class="project-title">Webdesign #3</h2><!--Project Title -->
+            </article>
+
+            <!--==== Project Modal ====-->
+            <div class="modal fade project-item-6">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i class="fa fa-times"></i>
+</span><span class="sr-only">Close</span></button>
+                            <h4 class="modal-title">Webdesign #3 <span>webdesign</span></h4><!--Modal Title, Subtitle -->
+                            <img src="assets/images/project.jpg" alt="" />
+                        </div>
+                        <div class="modal-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum egestas lectus, in efficitur metus gravida eu. Duis molestie mauris id pharetra varius. Mauris aliquet ut eros ac iaculis. Duis sagittis faucibus mi sed rhoncus. Sed commodo magna quam, id cursus nibh congue ac. Phasellus sollicitudin orci sapien, id dignissim nulla dapibus id. Cras volutpat orci et nibh convallis, a auctor nisi sodales. Phasellus pulvinar non tellus nec posuere. Maecenas risus dui, interdum et nibh vel, iaculis porttitor purus. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ==== END PROJECT ITEM ==== -->
+
+            <!-- ==== PROJECT ITEM ==== -->
+            <article class="project-item photography logo" data-toggle="modal" data-target=".project-item-7">
+                <img class="img-responsive project-image" src="assets/images/thumb.png"  alt=""><!--Project thumb -->
+                <h2 class="project-title">Photography, logo #3</h2><!--Project Title -->
+            </article>
+
+            <!--==== Project Modal ====-->
+            <div class="modal fade project-item-7">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i class="fa fa-times"></i>
+</span><span class="sr-only">Close</span></button>
+                            <h4 class="modal-title">Photography, logo #3 <span>photography, logo</span></h4><!--Modal Title, Subtitle -->
+                            <img src="assets/images/project.jpg" alt="" />
+                        </div>
+                        <div class="modal-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum egestas lectus, in efficitur metus gravida eu. Duis molestie mauris id pharetra varius. Mauris aliquet ut eros ac iaculis. Duis sagittis faucibus mi sed rhoncus. Sed commodo magna quam, id cursus nibh congue ac. Phasellus sollicitudin orci sapien, id dignissim nulla dapibus id. Cras volutpat orci et nibh convallis, a auctor nisi sodales. Phasellus pulvinar non tellus nec posuere. Maecenas risus dui, interdum et nibh vel, iaculis porttitor purus. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ==== END PROJECT ITEM ==== -->
+
+            <!-- ==== PROJECT ITEM ==== -->
+            <article class="project-item logo webdesign" data-toggle="modal" data-target=".project-item-8">
+                <img class="img-responsive project-image" src="assets/images/thumb.png"  alt=""><!--Project thumb -->
+                <h2 class="project-title">Logo, webdesign #1</h2><!--Project Title -->
+            </article>
+
+            <!--==== Project Modal ====-->
+            <div class="modal fade project-item-8">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i class="fa fa-times"></i>
+</span><span class="sr-only">Close</span></button>
+                            <h4 class="modal-title">Logo, webdesign #1 <span>logo, webdesign</span></h4><!--Modal Title, Subtitle -->
+                            <img src="assets/images/project.jpg" alt="" />
+                        </div>
+                        <div class="modal-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum egestas lectus, in efficitur metus gravida eu. Duis molestie mauris id pharetra varius. Mauris aliquet ut eros ac iaculis. Duis sagittis faucibus mi sed rhoncus. Sed commodo magna quam, id cursus nibh congue ac. Phasellus sollicitudin orci sapien, id dignissim nulla dapibus id. Cras volutpat orci et nibh convallis, a auctor nisi sodales. Phasellus pulvinar non tellus nec posuere. Maecenas risus dui, interdum et nibh vel, iaculis porttitor purus. </p>
+                            <img class="width50" src="assets/images/project.jpg" alt="" />
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum egestas lectus, in efficitur metus gravida eu. Duis molestie mauris id pharetra varius. Mauris aliquet ut eros ac iaculis. Duis sagittis faucibus mi sed rhoncus. Sed commodo magna quam, id cursus nibh congue ac. Phasellus sollicitudin orci sapien, id dignissim nulla dapibus id. Cras volutpat orci et nibh convallis, a auctor nisi sodales. Phasellus pulvinar non tellus nec posuere. Maecenas risus dui, interdum et nibh vel, iaculis porttitor purus. </p>
+                            <img class="width100" src="assets/images/project.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ==== END PROJECT ITEM ==== -->
+
+            <!-- ==== PROJECT ITEM ==== -->
+            <article class="project-item webdesign" data-toggle="modal" data-target=".project-item-9">
+                <img class="img-responsive project-image" src="assets/images/thumb.png"  alt=""><!--Project thumb -->
+                <h2 class="project-title">Webdesign #4</h2><!--Project Title -->
+            </article>
+
+            <!--==== Project Modal ====-->
+            <div class="modal fade project-item-9">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i class="fa fa-times"></i>
+</span><span class="sr-only">Close</span></button>
+                            <h4 class="modal-title">Webdesign #4 <span>webdesign</span></h4><!--Modal Title, Subtitle -->
+                            <img src="assets/images/project.jpg" alt="" />
+                        </div>
+                        <div class="modal-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum egestas lectus, in efficitur metus gravida eu. Duis molestie mauris id pharetra varius. Mauris aliquet ut eros ac iaculis. Duis sagittis faucibus mi sed rhoncus. Sed commodo magna quam, id cursus nibh congue ac. Phasellus sollicitudin orci sapien, id dignissim nulla dapibus id. Cras volutpat orci et nibh convallis, a auctor nisi sodales. Phasellus pulvinar non tellus nec posuere. Maecenas risus dui, interdum et nibh vel, iaculis porttitor purus. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ==== END PROJECT ITEM ==== -->
+
+        </div><!-- End projects -->
+
+    </div><!-- End container -->
+
+
+</section><!-- End portfolio section -->
+
+<!-- ==============================================
+CONTACT
+=============================================== -->
+<section id="contact" class="">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-xs-12">
+                <h1 class="big-text orange wow fadeInDown text-center" data-wow-offset="100">
+                    <i class="fa fa-comments-o"></i>
+                    Contact Me
+                </h1>
+            </div>
+
+            <div class="clear"></div>
+
+            <div class="col-md-6 text-right hidden-sm hidden-xs">
+
+                <!-- MAP -->
+                <div id="gmap" class="wow fadeInLeft" data-wow-offset="100"></div>
+
+            </div>
+
+            <!--=== Contact info ===-->
+            <div class="col-md-6 contact-info">
+                <p class="contact-text wow fadeInRight">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus elementum iaculis mollis. Aliquam erat volutpat. Nam purus sapien, porta sit amet ultricies in, aliquam et felis. Etiam in nisi enim. Cras iaculis risus a eros vehicula auctor. Pellentesque ut commodo eros, id posuere mauris. Morbi lobortis et nulla et viverra. In lacus felis, volutpat ac venenatis ac, elementum et diam. Phasellus nec elementum nisl. Aliquam et arcu eu dui luctus facilisis id eu purus. Nunc fringilla felis tempor molestie semper. Pellentesque hendrerit magna magna, cursus semper turpis semper quis.
+                </p>
+                <ul class="contact-list">
+                    <li class="wow fadeInRight" data-wow-delay="0s">
+                        <a id="mapLink" target="_blank" href="">
+                            <i class="fa fa-map-marker"></i>
+                            Irvine, California
+                        </a>
+                    </li>
+                    <li class="wow fadeInRight" data-wow-delay="0s">
+                        <a href="tel:12345678910">
+                            <i class="fa fa-phone"></i> 949 677 4005
+                        </a>
+                    </li>
+                    <li class="wow fadeInRight" data-wow-delay="0s">
+                        <a href="mailto:info@panacz-design.com">
+                            <i class="fa fa-envelope"></i> michpenn91@gmail.com
+                        </a>
+                    </li>
                 </ul>
             </div>
-        </div>
-        <div id="freewall" class="free-wall">
-            <div class="brick tint size11 cat-2">
-                <img src="images/4538256461_96f9e70e9c_b.jpg" alt="number1" />
-                <div class="overlay">
-                    <h3 class="project-title">Your Project Title</h3>
-                    <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <a href="single-page-lite1.html" class="open-project" target="open-iframe">OPEN <span class="pictogram">&#xe803;</span></a>
-                </div>
-            </div>
-            <div class="brick tint size11 cat-3">
-                <img src="images/2310704408_361758fa28_b.jpg" alt="number2" />
-                <div class="overlay">
-                    <h3 class="project-title">Your Project Title</h3>
-                    <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <a href="single-page-lite2.html" class="open-project" target="open-iframe">OPEN <span class="pictogram">&#xe803;</span></a>
-                </div>
-            </div>
-            <div class="brick tint size11 cat-2">
-                <img src="images/3084871415_da49ab66ea_o.jpg" alt="number3" />
-                <div class="overlay">
-                    <h3 class="project-title">Your Project Title</h3>
-                    <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <a href="single-page-lite3.html" class="open-project" target="open-iframe">OPEN <span class="pictogram">&#xe803;</span></a>
-                </div>
-            </div>
-        </div>
-        <div class="brick size12 cycle-slideshow" data-cycle-fx="scrollHorz" data-cycle-speed="500" data-fixpos="0-3">
-            <!-- Your slideshow images -->
-            <img src="images/5226290116_1409794022_b.jpg" alt="number4" />
-            <img src="images/8098729514_fa1919474d_b.jpg" alt="number5" />
-            <img src="images/3919137679_dc05b59927.jpg" alt="number6" />
-        </div>
+            <!--=== End Contact ===-->
 
-        <div class="brick size11" data-fixpos="1-0">
-            <div class="cover">
-                <p>
-                    <strong>Hello!</strong>
-                </p>
-                <p>Welcome to my portfolio. I'm Jane Doe, a 20-something photographer with passion for composition and beauty.</p>
-                <p>Feel free to explore my works. And contact me for photo queries.</p>
-                <p><?= $_SERVER['REMOTE_ADDR']; ?></p>
-            </div>
         </div>
-        <div class="brick tint size12 cat-3">
-            <img src="images/4414454672_e91f887d34_o.jpg" alt="number7" />
-            <div class="overlay">
-                <h3 class="project-title">Your Project Title</h3>
-                <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <a href="single-page-lite1.html" class="open-project" target="open-iframe">OPEN <span class="pictogram">&#xe803;</span></a>
-            </div>
-        </div>
-        <div class="brick size11 cycle-slideshow client-number" data-cycle-fx="scrollHorz" data-cycle-speed="200" data-fixpos="1-2">
-            <img src="images/3346647884_a47c71fd9a_o.jpg" alt="number8" />
-            <img src="images/1452336320_483f721d3d_o.jpg" alt="number9" />
-            <img src="images/4538256461_96f9e70e9c_b.jpg" alt="number10" />
-            <img src="images/2310704408_361758fa28_b.jpg" alt="number11" />
-            <div class="client">
-                <div class="number">365</div>
-                <div class="client-text">Happy Clients and Counting</div>
-                <div class="client-text">
-                    <a href="#">
-                        <strong>BE ONE!</strong>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="brick tint size11 cat-1">
-            <img src="images/5171071313_e4c110ccb2_b.jpg" alt="number12" />
-            <div class="overlay">
-                <h3 class="project-title">Your Project Title</h3>
-                <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <a href="single-page-lite2.html" class="open-project" target="open-iframe">OPEN <span class="pictogram">&#xe803;</span></a>
-            </div>
-        </div>
-
-        <!-- This is the slideshow for text. Wrap your text inside div .cover -->
-        <div class="brick size11 cycle-slideshow" data-cycle-fx="fade" data-cycle-speed="900" data-cycle-slides="> div" data-fixpos="2-2">
-            <div class="cover">
-                <h2>" Odipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit amet, euismod in quis neque in neque sagittis scelerisque. Fusce quis quam mollis, varius diam at, tempus mi "</h2>
-                <p>Vivamus dictum</p>
-            </div>
-            <div class="cover">
-                <h2>" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed quam facilisis, condimentum nibh eu, hendrerit purus. Ut ut malesuada odio, nec ultricies nisi "</h2>
-                <p>Morbi tempor</p>
-            </div>
-            <div class="cover">
-                <h2>" Suspendisse malesuada lacus nunc, eu sagittis arcu egestas non. Morbi tempor tempus lobortis. Aenean aliquet dui ipsum, eget ullamcorper nisl ornare ut. Suspendisse in vestibulum sapien "</h2>
-                <p>consectetur</p>
-            </div>
-        </div>
-
-        <div class="brick tint size11 cat-2">
-            <img src="images/4171682579_91f75f9a6a_o.jpg" alt="number13" />
-            <div class="overlay">
-                <h3 class="project-title">Your Project Title</h3>
-                <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <a href="single-page-lite1.html" class="open-project" target="open-iframe">OPEN <span class="pictogram">&#xe803;</span></a>
-            </div>
-        </div>
-        <div class="brick tint size11 cat-1">
-            <img src="images/1330348274_33c00c4886_o.jpg" alt="number14" />
-            <div class="overlay">
-                <h3 class="project-title">Your Project Title</h3>
-                <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <a href="single-page-lite2.html" class="open-project" target="open-iframe">OPEN <span class="pictogram">&#xe803;</span></a>
-            </div>
-        </div>
-        <div class="brick tint size21 cat-3">
-            <img src="images/4613181397_78853da480_b.jpg" alt="number15" />
-            <div class="overlay">
-                <h3 class="project-title">Your Project Title</h3>
-                <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <a href="single-page-lite1.html" class="open-project" target="open-iframe">OPEN <span class="pictogram">&#xe803;</span></a>
-            </div>
-        </div>
-        <div class="brick tint size11 cat-1">
-            <img src="images/261980228_495975b20b_o.jpg" alt="number16" />
-            <div class="overlay">
-                <h3 class="project-title">Your Project Title</h3>
-                <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <a href="single-page-lite2.html" class="open-project" target="open-iframe">OPEN <span class="pictogram">&#xe803;</span></a>
-            </div>
-        </div>
-    </div>
-    <div class="footer">
-        <div class="float-right copyright">
-            <p>2015<strong>Michal Penn</strong>All rights reserved</p>
-            </div>
-        </div>
-
 
     </div>
-    <!-- All links from this homepage will be opened in this iframe, to prevent fullscreen (if enabled) from exiting if the user clicked on a link. -->
-    <iframe id="open-iframe" name="open-iframe"></iframe>
 
-    <!-- Scripts -->
-    <script type="text/javascript" src="external_files/js/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" src="external_files/js/freewall.min.js"></script>
-    <script type="text/javascript" src="external_files/js/jquery.cycle2.min.js"></script>
-    <script type="text/javascript" src="external_files/js/jquery.slimmenu.min.js"></script>
-    <script type="text/javascript" src="external_files/js/custom-script.min.js"></script>
+</section><!--=== End Contact section ===-->
+
+<!-- ==============================================
+FOOTER
+=============================================== -->
+
+<footer id="main-footer">
+    <!-- FOOTER MAP -->
+    <div id="gmapMobil" class="hidden-lg hidden-md"></div>
+
+    <!-- FOOTER Social -->
+    <div class="container">
+        <ul class="social">
+            <li class="wow fadeInRight" data-wow-delay="0s"><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li class="wow fadeInRight" data-wow-delay=".3s"><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li class="wow fadeInRight" data-wow-delay=".6s"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            <li class="wow fadeInRight" data-wow-delay=".9s"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+        <p>&copy; 2015 - All rights reserved </p>
+
+    </div>
+
+</footer><!--=== End Footer ===-->
+
+<!-- ==============================================
+SCRIPTS
+=============================================== -->
+
+<script src="assets/js/libs/jquery-1.11.3.min.js"></script>
+<script src="assets/js/libs/bootstrap.min.js"></script>
+<script src="assets/js/jquery.backstretch.min.js"></script>
+<script src="assets/js/jquery.easypiechart.min.js"></script>
+<script src="assets/js/jquery.masonry.min.js"></script>
+<script src="assets/js/wow.min.js"></script>
+
+<script src="assets/js/jquery.scrollmagic.min.js"></script>
+
+<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+
+<script src="assets/js/scripts.js"></script>
+
+<script>
+    new WOW().init();
+
+    /*============================================
+     Map
+     ==============================================*/
+    var mapPoint = {
+        'lat': 33.687881,
+        'lng': -117.791112,
+        'zoom' : 11,
+        'icon': 'assets/images/marker.png'
+    };
+
+</script>
+
 </body>
+
 </html>
