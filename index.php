@@ -605,7 +605,7 @@ CONTACT
             <!--=== Contact info ===-->
             <div class="col-md-6 contact-info">
                 <p class="contact-text wow fadeInRight">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus elementum iaculis mollis. Aliquam erat volutpat. Nam purus sapien, porta sit amet ultricies in, aliquam et felis. Etiam in nisi enim. Cras iaculis risus a eros vehicula auctor. Pellentesque ut commodo eros, id posuere mauris. Morbi lobortis et nulla et viverra. In lacus felis, volutpat ac venenatis ac, elementum et diam. Phasellus nec elementum nisl. Aliquam et arcu eu dui luctus facilisis id eu purus. Nunc fringilla felis tempor molestie semper. Pellentesque hendrerit magna magna, cursus semper turpis semper quis.
+                I am looking for new opportunities that will allow me to put my web development skills to the test. If you think I may be a good fit, please feel free to contact me!
                 </p>
                 <ul class="contact-list">
                     <li class="wow fadeInRight" data-wow-delay="0s">
