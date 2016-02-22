@@ -99,7 +99,8 @@ MAIN NAV
 
     </div>
 
-</div><!--End main-nav -->
+</div>
+<!--End main-nav -->
 
 <!-- ==============================================
 HEADER
@@ -109,13 +110,17 @@ HEADER
 
         <div class="hello">
             <p>HELLO</p>
+
             <h1>I AM MICHAL PENN</h1>
+
             <p class="p2">AND</p>
+
             <H2>I AM A WEB DEVELOPER</H2>
         </div>
 
     </div>
-</header><!--End home header -->
+</header>
+<!--End home header -->
 
 <!-- ==============================================
 ABOUT
@@ -131,8 +136,13 @@ ABOUT
                     <i class="fa fa-user"></i>
                     About Me
                 </h1>
+
                 <p class="about-text wow fadeInDown">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet a purus sit amet elementum. Nulla accumsan lacus ut congue sagittis. Vestibulum eu viverra sapien. Maecenas porttitor varius ex, scelerisque rhoncus sapien. Morbi iaculis dapibus tortor. Aenean hendrerit orci sit amet risus tempus mollis. In vitae felis leo. Suspendisse potenti. Quisque ipsum leo, faucibus sed quam nec, ultrices vehicula neque.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet a purus sit amet elementum.
+                    Nulla accumsan lacus ut congue sagittis. Vestibulum eu viverra sapien. Maecenas porttitor varius ex,
+                    scelerisque rhoncus sapien. Morbi iaculis dapibus tortor. Aenean hendrerit orci sit amet risus
+                    tempus mollis. In vitae felis leo. Suspendisse potenti. Quisque ipsum leo, faucibus sed quam nec,
+                    ultrices vehicula neque.
                 </p>
             </div>
 
@@ -140,7 +150,7 @@ ABOUT
             <div class="col-sm-6">
                 <div id="trigger1"></div>
                 <div id="pin1" class="imageCont">
-                    <img class="wow rollIn image" data-wow-offset="200" src="assets/images/about.jpg" alt="" />
+                    <img class="wow rollIn image" data-wow-offset="200" src="assets/images/about.jpg" alt=""/>
                 </div>
             </div>
 
@@ -149,67 +159,107 @@ ABOUT
                 <i id="timeline-top" class="fa fa-clock-o"></i>
 
                 <div class="wow fadeInRight" data-wow-offset="200">
-                    <i class="fa fa-smile-o wow swing" data-wow-offset="200" data-wow-delay="1s"></i>
-                    <h3>1990.01.01.</h3>
+                    <i class="fa fa-language wow swing" data-wow-offset="200" data-wow-delay="1s"></i>
+
+                    <h3>MBoutique</h3>
+
                     <p>
-                        <span>Born</span>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis, quam vel iaculis blandit, massa nisl laoreet ante, eu elementum elit odio ut nulla. In facilisis leo ac erat ultricies luctus id vel eros. Sed laoreet vitae massa a maximus.                            </p>
+                        <span>HTML, CSS, PHP, & MySQL</span>
+                        Original Requirements:
+                        Additional Add-ons:
+                        Live Preview:
+                        Source Code: </p>
                 </div>
 
                 <div class="wow fadeInRight" data-wow-offset="200">
-                    <i class="fa fa-book wow swing" data-wow-offset="200" data-wow-delay="1s"></i>
-                    <h3>1996 - 2004</h3>
+                    <i class="fa fa-users wow swing" data-wow-offset="200" data-wow-delay="1s"></i>
+
+                    <h3>Memory Match</h3>
+
                     <p>
-                        <span>Grade school</span>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis, quam vel iaculis blandit, massa nisl laoreet ante, eu elementum elit odio ut nulla. In facilisis leo ac erat ultricies luctus id vel eros. Sed laoreet vitae massa a maximus.                            </p>
+                        <span>HTML, CSS, Javascript, jQuery</span>
+                        Original Requirements:
+                        Additional Add-ons:
+                        Live Preview:
+                        Source Code: </p>
                 </div>
 
                 <div class="wow fadeInRight" data-wow-offset="200">
-                    <i class="fa fa-book wow swing" data-wow-offset="200" data-wow-delay="1s"></i>
-                    <h3>2004 - 2008</h3>
+                    <i class="fa fa-database wow swing" data-wow-offset="200" data-wow-delay="1s"></i>
+
+                    <h3>Tic Tac Toe</h3>
+
                     <p>
-                        <span>High school</span>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis, quam vel iaculis blandit, massa nisl laoreet ante, eu elementum elit odio ut nulla. In facilisis leo ac erat ultricies luctus id vel eros. Sed laoreet vitae massa a maximus.                            </p>
+                        <span>HTML, CSS, Javascript, jQuery</span>
+                        Original Requirements:
+                        Additional Add-ons:
+                        Live Preview:
+                        Source Code: </p>
                 </div>
 
                 <div class="wow fadeInRight" data-wow-offset="200">
                     <i class="fa fa-university wow swing" data-wow-offset="200" data-wow-delay="1s"></i>
-                    <h3>2008</h3>
+
+                    <h3>Student Grade Table</h3>
+
                     <p>
-                        <span>Starting University</span>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis, quam vel iaculis blandit, massa nisl laoreet ante, eu elementum elit odio ut nulla. In facilisis leo ac erat ultricies luctus id vel eros. Sed laoreet vitae massa a maximus.                            </p>
+                        <span>Full Stack: Bootstrap, Angular.JS, PHP, MySQL</span>
+                        Original Requirements:
+                        Additional Add-ons:
+                        Live Preview:
+                        Source Code: </p>
                 </div>
 
                 <div class="wow fadeInRight" data-wow-offset="200">
-                    <i class="fa fa-trophy wow swing" data-wow-offset="200" data-wow-delay="1s"></i>
-                    <h3>2010</h3>
+                    <i class="fa fa-calculator wow swing" data-wow-offset="200" data-wow-delay="1s"></i>
+
+                    <h3>Calculator</h3>
+
                     <p>
-                        <span>Best Designer Award</span>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis, quam vel iaculis blandit, massa nisl laoreet ante, eu elementum elit odio ut nulla. In facilisis leo ac erat ultricies luctus id vel eros. Sed laoreet vitae massa a maximus.                            </p>
+                        <span>Javascript, jQuery</span>
+                        Original Requirements:
+                        Additional Add-ons:
+                        Live Preview:
+                        Source Code: </p>
                 </div>
 
                 <div class="wow fadeInRight" data-wow-offset="200">
-                    <i class="fa fa-graduation-cap wow swing" data-wow-offset="200" data-wow-delay="1s"></i>
-                    <h3>2013</h3>
+                    <i class="fa fa-book wow swing" data-wow-offset="200" data-wow-delay="1s"></i>
+
+                    <h3>Personal Project: Cookbook</h3>
+
                     <p>
-                        <span>University of completion</span>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis, quam vel iaculis blandit, massa nisl laoreet ante, eu elementum elit odio ut nulla. In facilisis leo ac erat ultricies luctus id vel eros. Sed laoreet vitae massa a maximus.                            </p>
+                        <span>Full Stack</span>
+                        Original Requirements:
+                        Additional Add-ons:
+                        Live Preview:
+                        Source Code: </p>
                 </div>
 
                 <div class="wow fadeInRight" data-wow-offset="200">
-                    <i class="fa fa-briefcase wow swing" data-wow-offset="200" data-wow-delay="1s"></i>
-                    <h3>2013 - 2014</h3>
+                    <i class="fa fa-superscript wow swing" data-wow-offset="200" data-wow-delay="1s"></i>
+
+                    <h3>Personal Project: Math Library</h3>
+
                     <p>
-                        <span>Work</span>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis, quam vel iaculis blandit, massa nisl laoreet ante, eu elementum elit odio ut nulla. In facilisis leo ac erat ultricies luctus id vel eros. Sed laoreet vitae massa a maximus.                            </p>
+                        <span>Javascript, jQuery</span>
+                        Original Requirements:
+                        Additional Add-ons:
+                        Live Preview:
+                        Source Code: </p>
                 </div>
 
                 <div class="wow fadeInRight" data-wow-offset="200">
-                    <i class="fa fa-search wow swing" data-wow-offset="200" data-wow-delay="1s"></i>
-                    <h3>2014 -</h3>
+                    <i class="fa fa-bar-chart wow swing" data-wow-offset="200" data-wow-delay="1s"></i>
+
+                    <h3>Personal Project: Data Visualization</h3>
+
                     <p>
-                        <span>Freelancer</span>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis, quam vel iaculis blandit, massa nisl laoreet ante, eu elementum elit odio ut nulla. In facilisis leo ac erat ultricies luctus id vel eros. Sed laoreet vitae massa a maximus.                            </p>
+                        <span>D3.JS</span>
+                        Original Requirements:
+                        Additional Add-ons:
+                        Live Preview:
+                        Source Code: </p>
                 </div>
 
             </div>
@@ -217,7 +267,8 @@ ABOUT
 
     </div>
 
-</section><!--End about section -->
+</section>
+<!--End about section -->
 
 
 <!-- ==============================================
@@ -313,7 +364,8 @@ SKILLS
 
     </div>
 
-</section><!--End skills section -->
+</section>
+<!--End skills section -->
 
 <!-- ==============================================
 PORTFOLIO
@@ -343,7 +395,8 @@ PORTFOLIO
                     <a href="#" data-filter=".photography">Photography</a>
                 </li>
             </ul>
-        </div><!--End portfolio filters -->
+        </div>
+        <!--End portfolio filters -->
 
     </div>
 
@@ -353,7 +406,7 @@ PORTFOLIO
 
             <!-- ==== PROJECT ITEM ==== -->
             <article class="project-item webdesign" data-toggle="modal" data-target=".project-item-1">
-                <img class="img-responsive project-image" src="assets/images/thumb.png"  alt=""><!--Project thumb -->
+                <img class="img-responsive project-image" src="assets/images/thumb.png" alt=""><!--Project thumb -->
                 <h2 class="project-title">Webdesign #1</h2><!--Project Title -->
             </article>
 
@@ -362,13 +415,21 @@ PORTFOLIO
                 <div class="modal-dialog modal-lg">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i class="fa fa-times"></i>
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i
+                                        class="fa fa-times"></i>
 </span><span class="sr-only">Close</span></button>
-                            <h4 class="modal-title">Webdesign #1 <span>webdesign</span></h4><!--Modal Title, Subtitle -->
-                            <img src="assets/images/project.jpg" alt="" />
+                            <h4 class="modal-title">Webdesign #1 <span>webdesign</span></h4>
+                            <!--Modal Title, Subtitle -->
+                            <img src="assets/images/project.jpg" alt=""/>
                         </div>
                         <div class="modal-body">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum egestas lectus, in efficitur metus gravida eu. Duis molestie mauris id pharetra varius. Mauris aliquet ut eros ac iaculis. Duis sagittis faucibus mi sed rhoncus. Sed commodo magna quam, id cursus nibh congue ac. Phasellus sollicitudin orci sapien, id dignissim nulla dapibus id. Cras volutpat orci et nibh convallis, a auctor nisi sodales. Phasellus pulvinar non tellus nec posuere. Maecenas risus dui, interdum et nibh vel, iaculis porttitor purus. </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum egestas
+                                lectus, in efficitur metus gravida eu. Duis molestie mauris id pharetra varius. Mauris
+                                aliquet ut eros ac iaculis. Duis sagittis faucibus mi sed rhoncus. Sed commodo magna
+                                quam, id cursus nibh congue ac. Phasellus sollicitudin orci sapien, id dignissim nulla
+                                dapibus id. Cras volutpat orci et nibh convallis, a auctor nisi sodales. Phasellus
+                                pulvinar non tellus nec posuere. Maecenas risus dui, interdum et nibh vel, iaculis
+                                porttitor purus. </p>
                         </div>
                     </div>
                 </div>
@@ -377,7 +438,7 @@ PORTFOLIO
 
             <!-- ==== PROJECT ITEM ==== -->
             <article class="project-item photography logo" data-toggle="modal" data-target=".project-item-2">
-                <img class="img-responsive project-image" src="assets/images/thumb.png"  alt=""><!--Project thumb -->
+                <img class="img-responsive project-image" src="assets/images/thumb.png" alt=""><!--Project thumb -->
                 <h2 class="project-title">Photography, logo #1 </h2><!--Project Title -->
             </article>
 
@@ -386,13 +447,21 @@ PORTFOLIO
                 <div class="modal-dialog modal-lg">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i class="fa fa-times"></i>
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i
+                                        class="fa fa-times"></i>
 </span><span class="sr-only">Close</span></button>
-                            <h4 class="modal-title">Photography, logo #1 <span>photography, logo</span></h4><!--Modal Title, Subtitle -->
-                            <img src="assets/images/project.jpg" alt="" />
+                            <h4 class="modal-title">Photography, logo #1 <span>photography, logo</span></h4>
+                            <!--Modal Title, Subtitle -->
+                            <img src="assets/images/project.jpg" alt=""/>
                         </div>
                         <div class="modal-body">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum egestas lectus, in efficitur metus gravida eu. Duis molestie mauris id pharetra varius. Mauris aliquet ut eros ac iaculis. Duis sagittis faucibus mi sed rhoncus. Sed commodo magna quam, id cursus nibh congue ac. Phasellus sollicitudin orci sapien, id dignissim nulla dapibus id. Cras volutpat orci et nibh convallis, a auctor nisi sodales. Phasellus pulvinar non tellus nec posuere. Maecenas risus dui, interdum et nibh vel, iaculis porttitor purus. </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum egestas
+                                lectus, in efficitur metus gravida eu. Duis molestie mauris id pharetra varius. Mauris
+                                aliquet ut eros ac iaculis. Duis sagittis faucibus mi sed rhoncus. Sed commodo magna
+                                quam, id cursus nibh congue ac. Phasellus sollicitudin orci sapien, id dignissim nulla
+                                dapibus id. Cras volutpat orci et nibh convallis, a auctor nisi sodales. Phasellus
+                                pulvinar non tellus nec posuere. Maecenas risus dui, interdum et nibh vel, iaculis
+                                porttitor purus. </p>
                         </div>
                     </div>
                 </div>
@@ -401,7 +470,7 @@ PORTFOLIO
 
             <!-- ==== PROJECT ITEM ==== -->
             <article class="project-item photography logo" data-toggle="modal" data-target=".project-item-3">
-                <img class="img-responsive project-image" src="assets/images/thumb.png"  alt=""><!--Project thumb -->
+                <img class="img-responsive project-image" src="assets/images/thumb.png" alt=""><!--Project thumb -->
                 <h2 class="project-title">Photography, logo #2</h2><!--Project Title -->
             </article>
 
@@ -410,13 +479,21 @@ PORTFOLIO
                 <div class="modal-dialog modal-lg">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i class="fa fa-times"></i>
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i
+                                        class="fa fa-times"></i>
 </span><span class="sr-only">Close</span></button>
-                            <h4 class="modal-title">Photography, logo #2 <span>photography, logo</span></h4><!--Modal Title, Subtitle -->
-                            <img src="assets/images/project.jpg" alt="" />
+                            <h4 class="modal-title">Photography, logo #2 <span>photography, logo</span></h4>
+                            <!--Modal Title, Subtitle -->
+                            <img src="assets/images/project.jpg" alt=""/>
                         </div>
                         <div class="modal-body">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum egestas lectus, in efficitur metus gravida eu. Duis molestie mauris id pharetra varius. Mauris aliquet ut eros ac iaculis. Duis sagittis faucibus mi sed rhoncus. Sed commodo magna quam, id cursus nibh congue ac. Phasellus sollicitudin orci sapien, id dignissim nulla dapibus id. Cras volutpat orci et nibh convallis, a auctor nisi sodales. Phasellus pulvinar non tellus nec posuere. Maecenas risus dui, interdum et nibh vel, iaculis porttitor purus. </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum egestas
+                                lectus, in efficitur metus gravida eu. Duis molestie mauris id pharetra varius. Mauris
+                                aliquet ut eros ac iaculis. Duis sagittis faucibus mi sed rhoncus. Sed commodo magna
+                                quam, id cursus nibh congue ac. Phasellus sollicitudin orci sapien, id dignissim nulla
+                                dapibus id. Cras volutpat orci et nibh convallis, a auctor nisi sodales. Phasellus
+                                pulvinar non tellus nec posuere. Maecenas risus dui, interdum et nibh vel, iaculis
+                                porttitor purus. </p>
                         </div>
                     </div>
                 </div>
@@ -425,7 +502,7 @@ PORTFOLIO
 
             <!-- ==== PROJECT ITEM ==== -->
             <article class="project-item webdesign" data-toggle="modal" data-target=".project-item-4">
-                <img class="img-responsive project-image" src="assets/images/thumb.png"  alt=""><!--Project thumb -->
+                <img class="img-responsive project-image" src="assets/images/thumb.png" alt=""><!--Project thumb -->
                 <h2 class="project-title">Webdesign #2</h2><!--Project Title -->
             </article>
 
@@ -434,13 +511,21 @@ PORTFOLIO
                 <div class="modal-dialog modal-lg">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i class="fa fa-times"></i>
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i
+                                        class="fa fa-times"></i>
 </span><span class="sr-only">Close</span></button>
-                            <h4 class="modal-title">Webdesign #2 <span>webdesign</span></h4><!--Modal Title, Subtitle -->
-                            <img src="assets/images/project.jpg" alt="" />
+                            <h4 class="modal-title">Webdesign #2 <span>webdesign</span></h4>
+                            <!--Modal Title, Subtitle -->
+                            <img src="assets/images/project.jpg" alt=""/>
                         </div>
                         <div class="modal-body">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum egestas lectus, in efficitur metus gravida eu. Duis molestie mauris id pharetra varius. Mauris aliquet ut eros ac iaculis. Duis sagittis faucibus mi sed rhoncus. Sed commodo magna quam, id cursus nibh congue ac. Phasellus sollicitudin orci sapien, id dignissim nulla dapibus id. Cras volutpat orci et nibh convallis, a auctor nisi sodales. Phasellus pulvinar non tellus nec posuere. Maecenas risus dui, interdum et nibh vel, iaculis porttitor purus. </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum egestas
+                                lectus, in efficitur metus gravida eu. Duis molestie mauris id pharetra varius. Mauris
+                                aliquet ut eros ac iaculis. Duis sagittis faucibus mi sed rhoncus. Sed commodo magna
+                                quam, id cursus nibh congue ac. Phasellus sollicitudin orci sapien, id dignissim nulla
+                                dapibus id. Cras volutpat orci et nibh convallis, a auctor nisi sodales. Phasellus
+                                pulvinar non tellus nec posuere. Maecenas risus dui, interdum et nibh vel, iaculis
+                                porttitor purus. </p>
                         </div>
                     </div>
                 </div>
@@ -449,7 +534,7 @@ PORTFOLIO
 
             <!-- ==== PROJECT ITEM ==== -->
             <article class="project-item photography webdesign" data-toggle="modal" data-target=".project-item-5">
-                <img class="img-responsive project-image" src="assets/images/thumb.png"  alt=""><!--Project thumb -->
+                <img class="img-responsive project-image" src="assets/images/thumb.png" alt=""><!--Project thumb -->
                 <h2 class="project-title">Photography, webdesign #1</h2><!--Project Title -->
             </article>
 
@@ -458,13 +543,21 @@ PORTFOLIO
                 <div class="modal-dialog modal-lg">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i class="fa fa-times"></i>
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i
+                                        class="fa fa-times"></i>
 </span><span class="sr-only">Close</span></button>
-                            <h4 class="modal-title">Photography, webdesign #1 <span>photography, webdesign</span></h4><!--Modal Title, Subtitle -->
-                            <img src="assets/images/project.jpg" alt="" />
+                            <h4 class="modal-title">Photography, webdesign #1 <span>photography, webdesign</span></h4>
+                            <!--Modal Title, Subtitle -->
+                            <img src="assets/images/project.jpg" alt=""/>
                         </div>
                         <div class="modal-body">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum egestas lectus, in efficitur metus gravida eu. Duis molestie mauris id pharetra varius. Mauris aliquet ut eros ac iaculis. Duis sagittis faucibus mi sed rhoncus. Sed commodo magna quam, id cursus nibh congue ac. Phasellus sollicitudin orci sapien, id dignissim nulla dapibus id. Cras volutpat orci et nibh convallis, a auctor nisi sodales. Phasellus pulvinar non tellus nec posuere. Maecenas risus dui, interdum et nibh vel, iaculis porttitor purus. </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum egestas
+                                lectus, in efficitur metus gravida eu. Duis molestie mauris id pharetra varius. Mauris
+                                aliquet ut eros ac iaculis. Duis sagittis faucibus mi sed rhoncus. Sed commodo magna
+                                quam, id cursus nibh congue ac. Phasellus sollicitudin orci sapien, id dignissim nulla
+                                dapibus id. Cras volutpat orci et nibh convallis, a auctor nisi sodales. Phasellus
+                                pulvinar non tellus nec posuere. Maecenas risus dui, interdum et nibh vel, iaculis
+                                porttitor purus. </p>
                         </div>
                     </div>
                 </div>
@@ -473,7 +566,7 @@ PORTFOLIO
 
             <!-- ==== PROJECT ITEM ==== -->
             <article class="project-item webdesign" data-toggle="modal" data-target=".project-item-6">
-                <img class="img-responsive project-image" src="assets/images/thumb.png"  alt=""><!--Project thumb -->
+                <img class="img-responsive project-image" src="assets/images/thumb.png" alt=""><!--Project thumb -->
                 <h2 class="project-title">Webdesign #3</h2><!--Project Title -->
             </article>
 
@@ -482,13 +575,21 @@ PORTFOLIO
                 <div class="modal-dialog modal-lg">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i class="fa fa-times"></i>
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i
+                                        class="fa fa-times"></i>
 </span><span class="sr-only">Close</span></button>
-                            <h4 class="modal-title">Webdesign #3 <span>webdesign</span></h4><!--Modal Title, Subtitle -->
-                            <img src="assets/images/project.jpg" alt="" />
+                            <h4 class="modal-title">Webdesign #3 <span>webdesign</span></h4>
+                            <!--Modal Title, Subtitle -->
+                            <img src="assets/images/project.jpg" alt=""/>
                         </div>
                         <div class="modal-body">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum egestas lectus, in efficitur metus gravida eu. Duis molestie mauris id pharetra varius. Mauris aliquet ut eros ac iaculis. Duis sagittis faucibus mi sed rhoncus. Sed commodo magna quam, id cursus nibh congue ac. Phasellus sollicitudin orci sapien, id dignissim nulla dapibus id. Cras volutpat orci et nibh convallis, a auctor nisi sodales. Phasellus pulvinar non tellus nec posuere. Maecenas risus dui, interdum et nibh vel, iaculis porttitor purus. </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum egestas
+                                lectus, in efficitur metus gravida eu. Duis molestie mauris id pharetra varius. Mauris
+                                aliquet ut eros ac iaculis. Duis sagittis faucibus mi sed rhoncus. Sed commodo magna
+                                quam, id cursus nibh congue ac. Phasellus sollicitudin orci sapien, id dignissim nulla
+                                dapibus id. Cras volutpat orci et nibh convallis, a auctor nisi sodales. Phasellus
+                                pulvinar non tellus nec posuere. Maecenas risus dui, interdum et nibh vel, iaculis
+                                porttitor purus. </p>
                         </div>
                     </div>
                 </div>
@@ -497,7 +598,7 @@ PORTFOLIO
 
             <!-- ==== PROJECT ITEM ==== -->
             <article class="project-item photography logo" data-toggle="modal" data-target=".project-item-7">
-                <img class="img-responsive project-image" src="assets/images/thumb.png"  alt=""><!--Project thumb -->
+                <img class="img-responsive project-image" src="assets/images/thumb.png" alt=""><!--Project thumb -->
                 <h2 class="project-title">Photography, logo #3</h2><!--Project Title -->
             </article>
 
@@ -506,13 +607,21 @@ PORTFOLIO
                 <div class="modal-dialog modal-lg">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i class="fa fa-times"></i>
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i
+                                        class="fa fa-times"></i>
 </span><span class="sr-only">Close</span></button>
-                            <h4 class="modal-title">Photography, logo #3 <span>photography, logo</span></h4><!--Modal Title, Subtitle -->
-                            <img src="assets/images/project.jpg" alt="" />
+                            <h4 class="modal-title">Photography, logo #3 <span>photography, logo</span></h4>
+                            <!--Modal Title, Subtitle -->
+                            <img src="assets/images/project.jpg" alt=""/>
                         </div>
                         <div class="modal-body">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum egestas lectus, in efficitur metus gravida eu. Duis molestie mauris id pharetra varius. Mauris aliquet ut eros ac iaculis. Duis sagittis faucibus mi sed rhoncus. Sed commodo magna quam, id cursus nibh congue ac. Phasellus sollicitudin orci sapien, id dignissim nulla dapibus id. Cras volutpat orci et nibh convallis, a auctor nisi sodales. Phasellus pulvinar non tellus nec posuere. Maecenas risus dui, interdum et nibh vel, iaculis porttitor purus. </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum egestas
+                                lectus, in efficitur metus gravida eu. Duis molestie mauris id pharetra varius. Mauris
+                                aliquet ut eros ac iaculis. Duis sagittis faucibus mi sed rhoncus. Sed commodo magna
+                                quam, id cursus nibh congue ac. Phasellus sollicitudin orci sapien, id dignissim nulla
+                                dapibus id. Cras volutpat orci et nibh convallis, a auctor nisi sodales. Phasellus
+                                pulvinar non tellus nec posuere. Maecenas risus dui, interdum et nibh vel, iaculis
+                                porttitor purus. </p>
                         </div>
                     </div>
                 </div>
@@ -521,7 +630,7 @@ PORTFOLIO
 
             <!-- ==== PROJECT ITEM ==== -->
             <article class="project-item logo webdesign" data-toggle="modal" data-target=".project-item-8">
-                <img class="img-responsive project-image" src="assets/images/thumb.png"  alt=""><!--Project thumb -->
+                <img class="img-responsive project-image" src="assets/images/thumb.png" alt=""><!--Project thumb -->
                 <h2 class="project-title">Logo, webdesign #1</h2><!--Project Title -->
             </article>
 
@@ -530,16 +639,31 @@ PORTFOLIO
                 <div class="modal-dialog modal-lg">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i class="fa fa-times"></i>
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i
+                                        class="fa fa-times"></i>
 </span><span class="sr-only">Close</span></button>
-                            <h4 class="modal-title">Logo, webdesign #1 <span>logo, webdesign</span></h4><!--Modal Title, Subtitle -->
-                            <img src="assets/images/project.jpg" alt="" />
+                            <h4 class="modal-title">Logo, webdesign #1 <span>logo, webdesign</span></h4>
+                            <!--Modal Title, Subtitle -->
+                            <img src="assets/images/project.jpg" alt=""/>
                         </div>
                         <div class="modal-body">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum egestas lectus, in efficitur metus gravida eu. Duis molestie mauris id pharetra varius. Mauris aliquet ut eros ac iaculis. Duis sagittis faucibus mi sed rhoncus. Sed commodo magna quam, id cursus nibh congue ac. Phasellus sollicitudin orci sapien, id dignissim nulla dapibus id. Cras volutpat orci et nibh convallis, a auctor nisi sodales. Phasellus pulvinar non tellus nec posuere. Maecenas risus dui, interdum et nibh vel, iaculis porttitor purus. </p>
-                            <img class="width50" src="assets/images/project.jpg" alt="" />
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum egestas lectus, in efficitur metus gravida eu. Duis molestie mauris id pharetra varius. Mauris aliquet ut eros ac iaculis. Duis sagittis faucibus mi sed rhoncus. Sed commodo magna quam, id cursus nibh congue ac. Phasellus sollicitudin orci sapien, id dignissim nulla dapibus id. Cras volutpat orci et nibh convallis, a auctor nisi sodales. Phasellus pulvinar non tellus nec posuere. Maecenas risus dui, interdum et nibh vel, iaculis porttitor purus. </p>
-                            <img class="width100" src="assets/images/project.jpg" alt="" />
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum egestas
+                                lectus, in efficitur metus gravida eu. Duis molestie mauris id pharetra varius. Mauris
+                                aliquet ut eros ac iaculis. Duis sagittis faucibus mi sed rhoncus. Sed commodo magna
+                                quam, id cursus nibh congue ac. Phasellus sollicitudin orci sapien, id dignissim nulla
+                                dapibus id. Cras volutpat orci et nibh convallis, a auctor nisi sodales. Phasellus
+                                pulvinar non tellus nec posuere. Maecenas risus dui, interdum et nibh vel, iaculis
+                                porttitor purus. </p>
+                            <img class="width50" src="assets/images/project.jpg" alt=""/>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum egestas
+                                lectus, in efficitur metus gravida eu. Duis molestie mauris id pharetra varius. Mauris
+                                aliquet ut eros ac iaculis. Duis sagittis faucibus mi sed rhoncus. Sed commodo magna
+                                quam, id cursus nibh congue ac. Phasellus sollicitudin orci sapien, id dignissim nulla
+                                dapibus id. Cras volutpat orci et nibh convallis, a auctor nisi sodales. Phasellus
+                                pulvinar non tellus nec posuere. Maecenas risus dui, interdum et nibh vel, iaculis
+                                porttitor purus. </p>
+                            <img class="width100" src="assets/images/project.jpg" alt=""/>
                         </div>
                     </div>
                 </div>
@@ -548,7 +672,7 @@ PORTFOLIO
 
             <!-- ==== PROJECT ITEM ==== -->
             <article class="project-item webdesign" data-toggle="modal" data-target=".project-item-9">
-                <img class="img-responsive project-image" src="assets/images/thumb.png"  alt=""><!--Project thumb -->
+                <img class="img-responsive project-image" src="assets/images/thumb.png" alt=""><!--Project thumb -->
                 <h2 class="project-title">Webdesign #4</h2><!--Project Title -->
             </article>
 
@@ -557,25 +681,36 @@ PORTFOLIO
                 <div class="modal-dialog modal-lg">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i class="fa fa-times"></i>
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i
+                                        class="fa fa-times"></i>
 </span><span class="sr-only">Close</span></button>
-                            <h4 class="modal-title">Webdesign #4 <span>webdesign</span></h4><!--Modal Title, Subtitle -->
-                            <img src="assets/images/project.jpg" alt="" />
+                            <h4 class="modal-title">Webdesign #4 <span>webdesign</span></h4>
+                            <!--Modal Title, Subtitle -->
+                            <img src="assets/images/project.jpg" alt=""/>
                         </div>
                         <div class="modal-body">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum egestas lectus, in efficitur metus gravida eu. Duis molestie mauris id pharetra varius. Mauris aliquet ut eros ac iaculis. Duis sagittis faucibus mi sed rhoncus. Sed commodo magna quam, id cursus nibh congue ac. Phasellus sollicitudin orci sapien, id dignissim nulla dapibus id. Cras volutpat orci et nibh convallis, a auctor nisi sodales. Phasellus pulvinar non tellus nec posuere. Maecenas risus dui, interdum et nibh vel, iaculis porttitor purus. </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum egestas
+                                lectus, in efficitur metus gravida eu. Duis molestie mauris id pharetra varius. Mauris
+                                aliquet ut eros ac iaculis. Duis sagittis faucibus mi sed rhoncus. Sed commodo magna
+                                quam, id cursus nibh congue ac. Phasellus sollicitudin orci sapien, id dignissim nulla
+                                dapibus id. Cras volutpat orci et nibh convallis, a auctor nisi sodales. Phasellus
+                                pulvinar non tellus nec posuere. Maecenas risus dui, interdum et nibh vel, iaculis
+                                porttitor purus. </p>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- ==== END PROJECT ITEM ==== -->
 
-        </div><!-- End projects -->
+        </div>
+        <!-- End projects -->
 
-    </div><!-- End container -->
+    </div>
+    <!-- End container -->
 
 
-</section><!-- End portfolio section -->
+</section>
+<!-- End portfolio section -->
 
 <!-- ==============================================
 CONTACT
@@ -605,7 +740,8 @@ CONTACT
             <!--=== Contact info ===-->
             <div class="col-md-6 contact-info">
                 <p class="contact-text wow fadeInRight">
-                I am looking for new opportunities that will allow me to put my web development skills to the test. If you think I may be a good fit, please feel free to contact me!
+                    I am looking for new opportunities that will allow me to put my web development skills to the test.
+                    If you think I may be a good fit, please feel free to contact me!
                 </p>
                 <ul class="contact-list">
                     <li class="wow fadeInRight" data-wow-delay="0s">
@@ -632,7 +768,8 @@ CONTACT
 
     </div>
 
-</section><!--=== End Contact section ===-->
+</section>
+<!--=== End Contact section ===-->
 
 <!-- ==============================================
 FOOTER
@@ -654,7 +791,8 @@ FOOTER
 
     </div>
 
-</footer><!--=== End Footer ===-->
+</footer>
+<!--=== End Footer ===-->
 
 <!-- ==============================================
 SCRIPTS
@@ -682,7 +820,7 @@ SCRIPTS
     var mapPoint = {
         'lat': 33.687881,
         'lng': -117.791112,
-        'zoom' : 11,
+        'zoom': 11,
         'icon': 'assets/images/marker.png'
     };
 
