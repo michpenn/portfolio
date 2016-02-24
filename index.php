@@ -51,6 +51,7 @@ session_start();
     <![endif]-->
 
     <script type="text/javascript" src="assets/js/libs/modernizr.min.js"></script>
+    <script type="text/javascript" src="assets/js/additional_features.js"></script>
 </head>
 
 <body data-spy="scroll" data-target="#main-nav" data-offset="200">
@@ -138,11 +139,7 @@ ABOUT
                 </h1>
 
                 <p class="about-text wow fadeInDown">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet a purus sit amet elementum.
-                    Nulla accumsan lacus ut congue sagittis. Vestibulum eu viverra sapien. Maecenas porttitor varius ex,
-                    scelerisque rhoncus sapien. Morbi iaculis dapibus tortor. Aenean hendrerit orci sit amet risus
-                    tempus mollis. In vitae felis leo. Suspendisse potenti. Quisque ipsum leo, faucibus sed quam nec,
-                    ultrices vehicula neque.
+                    Hi! I'm Michal. I just finished a coding bootcamp. Check out my projects!
                 </p>
             </div>
 
@@ -150,7 +147,7 @@ ABOUT
             <div class="col-sm-6">
                 <div id="trigger1"></div>
                 <div id="pin1" class="imageCont">
-                    <img class="wow rollIn image" data-wow-offset="200" src="assets/images/about.jpg" alt=""/>
+                    <img class="wow rollIn image image_preview" data-wow-offset="200" src="assets/images/about.jpg" alt=""/>
                 </div>
             </div>
 
@@ -158,7 +155,7 @@ ABOUT
             <div class="col-sm-6 timeline">
                 <i id="timeline-top" class="fa fa-clock-o"></i>
 
-                <div class="wow fadeInRight" data-wow-offset="200">
+                <div class="wow fadeInRight project project_mBoutique" data-wow-offset="200">
                     <i class="fa fa-language wow swing" data-wow-offset="200" data-wow-delay="1s"></i>
 
                     <h3>MBoutique</h3>
@@ -184,7 +181,7 @@ ABOUT
                         Source Code: </p>
                 </div>
 
-                <div class="wow fadeInRight" data-wow-offset="200">
+                <div class="wow fadeInRight project" data-wow-offset="200">
                     <i class="fa fa-database wow swing" data-wow-offset="200" data-wow-delay="1s"></i>
 
                     <h3>Tic Tac Toe</h3>
@@ -197,7 +194,7 @@ ABOUT
                         Source Code: </p>
                 </div>
 
-                <div class="wow fadeInRight" data-wow-offset="200">
+                <div class="wow fadeInRight project" data-wow-offset="200">
                     <i class="fa fa-university wow swing" data-wow-offset="200" data-wow-delay="1s"></i>
 
                     <h3>Student Grade Table</h3>
@@ -210,7 +207,7 @@ ABOUT
                         Source Code: </p>
                 </div>
 
-                <div class="wow fadeInRight" data-wow-offset="200">
+                <div class="wow fadeInRight project" data-wow-offset="200">
                     <i class="fa fa-calculator wow swing" data-wow-offset="200" data-wow-delay="1s"></i>
 
                     <h3>Calculator</h3>
@@ -223,7 +220,7 @@ ABOUT
                         Source Code: </p>
                 </div>
 
-                <div class="wow fadeInRight" data-wow-offset="200">
+                <div class="wow fadeInRight project" data-wow-offset="200">
                     <i class="fa fa-book wow swing" data-wow-offset="200" data-wow-delay="1s"></i>
 
                     <h3>Personal Project: Cookbook</h3>
@@ -236,7 +233,7 @@ ABOUT
                         Source Code: </p>
                 </div>
 
-                <div class="wow fadeInRight" data-wow-offset="200">
+                <div class="wow fadeInRight project" data-wow-offset="200">
                     <i class="fa fa-superscript wow swing" data-wow-offset="200" data-wow-delay="1s"></i>
 
                     <h3>Personal Project: Math Library</h3>
@@ -249,7 +246,7 @@ ABOUT
                         Source Code: </p>
                 </div>
 
-                <div class="wow fadeInRight" data-wow-offset="200">
+                <div class="wow fadeInRight project" data-wow-offset="200">
                     <i class="fa fa-bar-chart wow swing" data-wow-offset="200" data-wow-delay="1s"></i>
 
                     <h3>Personal Project: Data Visualization</h3>
@@ -302,14 +299,14 @@ SKILLS
             </div>
 
             <div class="col-md-3 col-sm-6 text-center">
-                        <span class="chart" data-percent="60">
+                        <span class="chart" data-percent="85">
                             <span class="title">jQuery</span>
                             <span class="percent"></span>
                         </span>
             </div>
 
             <div class="col-md-3 col-sm-6 text-center">
-                        <span class="chart" data-percent="70">
+                        <span class="chart" data-percent="50">
                             <span class="title">Photoshop</span>
                             <span class="percent"></span>
                         </span>
@@ -818,8 +815,8 @@ SCRIPTS
      Map
      ==============================================*/
     var mapPoint = {
-        'lat': 33.687881,
-        'lng': -117.791112,
+        'lat': 33.684981,
+        'lng': -117.794212,
         'zoom': 11,
         'icon': 'assets/images/marker.png'
     };
