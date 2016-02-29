@@ -87,10 +87,13 @@ MAIN NAV
                     <a href="#about"><i class="fa fa-user"></i> About Me</a>
                 </li>
                 <li>
+                    <a href="#class_projects"><i class="fa fa-th-large"></i>Coursework</a>
+                </li>
+                <li>
                     <a href="#skills"><i class="fa fa-pie-chart"></i> Skills</a>
                 </li>
                 <li>
-                    <a href="#portfolio"><i class="fa fa-th"></i> Works</a>
+                    <a href="#portfolio"><i class="fa fa-th"></i> Passion Projects</a>
                 </li>
                 <li>
                     <a href="#contact"><i class="fa fa-comments-o"></i> Contact Me</a>
@@ -143,14 +146,159 @@ ABOUT
                 </p>
             </div>
 
+            <!--            <!-- ==== PHOTO ==== -->
+            <!--            <div class="col-sm-6">-->
+            <!--                <div id="trigger1"></div>-->
+            <!--                <div id="pin1" class="imageCont">-->
+            <!--                    <img class="wow rollIn image image_preview" data-wow-offset="200" src="assets/images/about.jpg"-->
+            <!--                         alt=""/>-->
+            <!--                </div>-->
+            <!--            </div>-->
+
+            <!--            <!-- ==== TIMELINE ==== -->
+            <!--            <div class="col-sm-6 timeline">-->
+            <!--                <i id="timeline-top" class="fa fa-clock-o"></i>-->
+            <!---->
+            <!--                <div class="wow fadeInRight project project_mBoutique" data-wow-offset="200">-->
+            <!--                    <i class="fa fa-language wow swing" data-wow-offset="200" data-wow-delay="1s"></i>-->
+            <!---->
+            <!--                    <h3>MBoutique</h3>-->
+            <!---->
+            <!--                    <p>-->
+            <!--                        <span>HTML, CSS, PHP, & MySQL</span>-->
+            <!--                        Original Requirements:-->
+            <!--                        Additional Add-ons:-->
+            <!--                        Live Preview:-->
+            <!--                        Source Code: </p>-->
+            <!--                </div>-->
+            <!---->
+            <!--                <div class="wow fadeInRight" data-wow-offset="200">-->
+            <!--                    <i class="fa fa-users wow swing" data-wow-offset="200" data-wow-delay="1s"></i>-->
+            <!---->
+            <!--                    <h3>Memory Match</h3>-->
+            <!---->
+            <!--                    <p>-->
+            <!--                        <span>HTML, CSS, Javascript, jQuery</span>-->
+            <!--                        Original Requirements:-->
+            <!--                        Additional Add-ons:-->
+            <!--                        Live Preview:-->
+            <!--                        Source Code: </p>-->
+            <!--                </div>-->
+            <!---->
+            <!--                <div class="wow fadeInRight project" data-wow-offset="200">-->
+            <!--                    <i class="fa fa-database wow swing" data-wow-offset="200" data-wow-delay="1s"></i>-->
+            <!---->
+            <!--                    <h3>Tic Tac Toe</h3>-->
+            <!---->
+            <!--                    <p>-->
+            <!--                        <span>HTML, CSS, Javascript, jQuery</span>-->
+            <!--                        Original Requirements:-->
+            <!--                        Additional Add-ons:-->
+            <!--                        Live Preview:-->
+            <!--                        Source Code: </p>-->
+            <!--                </div>-->
+            <!---->
+            <!--                <div class="wow fadeInRight project" data-wow-offset="200">-->
+            <!--                    <i class="fa fa-university wow swing" data-wow-offset="200" data-wow-delay="1s"></i>-->
+            <!---->
+            <!--                    <h3>Student Grade Table</h3>-->
+            <!---->
+            <!--                    <p>-->
+            <!--                        <span>Full Stack: Bootstrap, Angular.JS, PHP, MySQL</span>-->
+            <!--                        Original Requirements:-->
+            <!--                        Additional Add-ons:-->
+            <!--                        Live Preview:-->
+            <!--                        Source Code: </p>-->
+            <!--                </div>-->
+            <!---->
+            <!--                <div class="wow fadeInRight project" data-wow-offset="200">-->
+            <!--                    <i class="fa fa-calculator wow swing" data-wow-offset="200" data-wow-delay="1s"></i>-->
+            <!---->
+            <!--                    <h3>Calculator</h3>-->
+            <!---->
+            <!--                    <p>-->
+            <!--                        <span>Javascript, jQuery</span>-->
+            <!--                        Original Requirements:-->
+            <!--                        Additional Add-ons:-->
+            <!--                        Live Preview:-->
+            <!--                        Source Code: </p>-->
+            <!--                </div>-->
+            <!---->
+            <!--                <div class="wow fadeInRight project" data-wow-offset="200">-->
+            <!--                    <i class="fa fa-book wow swing" data-wow-offset="200" data-wow-delay="1s"></i>-->
+            <!---->
+            <!--                    <h3>Personal Project: Cookbook</h3>-->
+            <!---->
+            <!--                    <p>-->
+            <!--                        <span>Full Stack</span>-->
+            <!--                        Original Requirements:-->
+            <!--                        Additional Add-ons:-->
+            <!--                        Live Preview:-->
+            <!--                        Source Code: </p>-->
+            <!--                </div>-->
+            <!---->
+            <!--                <div class="wow fadeInRight project" data-wow-offset="200">-->
+            <!--                    <i class="fa fa-superscript wow swing" data-wow-offset="200" data-wow-delay="1s"></i>-->
+            <!---->
+            <!--                    <h3>Personal Project: Math Library</h3>-->
+            <!---->
+            <!--                    <p>-->
+            <!--                        <span>Javascript, jQuery</span>-->
+            <!--                        Original Requirements:-->
+            <!--                        Additional Add-ons:-->
+            <!--                        Live Preview:-->
+            <!--                        Source Code: </p>-->
+            <!--                </div>-->
+            <!---->
+            <!--                <div class="wow fadeInRight project" data-wow-offset="200">-->
+            <!--                    <i class="fa fa-bar-chart wow swing" data-wow-offset="200" data-wow-delay="1s"></i>-->
+            <!---->
+            <!--                    <h3>Personal Project: Data Visualization</h3>-->
+            <!---->
+            <!--                    <p>-->
+            <!--                        <span>D3.JS</span>-->
+            <!--                        Original Requirements:-->
+            <!--                        Additional Add-ons:-->
+            <!--                        Live Preview:-->
+            <!--                        Source Code: </p>-->
+            <!--                </div>-->
+            <!---->
+            <!--            </div>-->
+        </div>
+
+    </div>
+
+</section>
+<!--End about section -->
+
+<!-- ==============================================
+Course Projects
+=============================================== -->
+<section id="class_projects" class="bg1">
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-xs-12">
+                <h1 class="big-text orange wow fadeInDown text-center">
+                    <i class="fa fa-user"></i>
+                    Course Projects
+                </h1>
+
+                <p class="about-text wow fadeInDown">
+                    These are my completed projects from my course! <br>
+                    Scroll down to preview additional projects that I am
+                    working on!
+                </p>
+            </div>
             <!-- ==== PHOTO ==== -->
             <div class="col-sm-6">
                 <div id="trigger1"></div>
                 <div id="pin1" class="imageCont">
-                    <img class="wow rollIn image image_preview" data-wow-offset="200" src="assets/images/about.jpg" alt=""/>
+                    <img class="wow rollIn image image_preview" data-wow-offset="200" src="assets/images/about.jpg"
+                         alt=""/>
                 </div>
             </div>
-
             <!-- ==== TIMELINE ==== -->
             <div class="col-sm-6 timeline">
                 <i id="timeline-top" class="fa fa-clock-o"></i>
@@ -260,13 +408,11 @@ ABOUT
                 </div>
 
             </div>
+
         </div>
-
     </div>
-
 </section>
-<!--End about section -->
-
+<!--End course projects section -->
 
 <!-- ==============================================
 SKILLS
@@ -373,7 +519,7 @@ PORTFOLIO
 
         <h1 class="big-text orange wow fadeInDown text-center" data-wow-offset="100">
             <i class="fa fa-th"></i>
-            My works
+            My Personal Projects
         </h1>
 
         <!--==== Portfolio Filters ====-->
@@ -383,10 +529,10 @@ PORTFOLIO
                     <a href="#" data-filter="*">All</a>
                 </li>
                 <li class="wow fadeInRight" data-wow-delay=".3s">
-                    <a href="#" data-filter=".logo">Logo</a>
+                    <a href="#" data-filter=".logo">Additional Projects</a>
                 </li>
                 <li class="wow fadeInRight" data-wow-delay=".6s">
-                    <a href="#" data-filter=".webdesign">Web design</a>
+                    <a href="#" data-filter=".webdesign">Passion Projects</a>
                 </li>
                 <li class="wow fadeInRight" data-wow-delay=".9s">
                     <a href="#" data-filter=".photography">Photography</a>
@@ -402,9 +548,9 @@ PORTFOLIO
         <div id="projects-container">
 
             <!-- ==== PROJECT ITEM ==== -->
-            <article class="project-item webdesign" data-toggle="modal" data-target=".project-item-1">
+            <article class="project-item logo" data-toggle="modal" data-target=".project-item-1">
                 <img class="img-responsive project-image" src="assets/images/thumb.png" alt=""><!--Project thumb -->
-                <h2 class="project-title">Webdesign #1</h2><!--Project Title -->
+                <h2 class="project-title">Math Library</h2><!--Project Title -->
             </article>
 
             <!--==== Project Modal ====-->
@@ -415,7 +561,7 @@ PORTFOLIO
                             <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i
                                         class="fa fa-times"></i>
 </span><span class="sr-only">Close</span></button>
-                            <h4 class="modal-title">Webdesign #1 <span>webdesign</span></h4>
+                            <h4 class="modal-title">Math Library <span>Javscript</span></h4>
                             <!--Modal Title, Subtitle -->
                             <img src="assets/images/project.jpg" alt=""/>
                         </div>
@@ -434,9 +580,9 @@ PORTFOLIO
             <!-- ==== END PROJECT ITEM ==== -->
 
             <!-- ==== PROJECT ITEM ==== -->
-            <article class="project-item photography logo" data-toggle="modal" data-target=".project-item-2">
+            <article class="project-item webdesign" data-toggle="modal" data-target=".project-item-2">
                 <img class="img-responsive project-image" src="assets/images/thumb.png" alt=""><!--Project thumb -->
-                <h2 class="project-title">Photography, logo #1 </h2><!--Project Title -->
+                <h2 class="project-title">Grandma's Kitchen </h2><!--Project Title -->
             </article>
 
             <!--==== Project Modal ====-->
@@ -447,7 +593,7 @@ PORTFOLIO
                             <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i
                                         class="fa fa-times"></i>
 </span><span class="sr-only">Close</span></button>
-                            <h4 class="modal-title">Photography, logo #1 <span>photography, logo</span></h4>
+                            <h4 class="modal-title">Grandma's Kitchen <span>Passion Project</span></h4>
                             <!--Modal Title, Subtitle -->
                             <img src="assets/images/project.jpg" alt=""/>
                         </div>
@@ -466,9 +612,9 @@ PORTFOLIO
             <!-- ==== END PROJECT ITEM ==== -->
 
             <!-- ==== PROJECT ITEM ==== -->
-            <article class="project-item photography logo" data-toggle="modal" data-target=".project-item-3">
+            <article class="project-item photography" data-toggle="modal" data-target=".project-item-3">
                 <img class="img-responsive project-image" src="assets/images/thumb.png" alt=""><!--Project thumb -->
-                <h2 class="project-title">Photography, logo #2</h2><!--Project Title -->
+                <h2 class="project-title">South Africa: Madikwe</h2><!--Project Title -->
             </article>
 
             <!--==== Project Modal ====-->
@@ -479,7 +625,7 @@ PORTFOLIO
                             <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i
                                         class="fa fa-times"></i>
 </span><span class="sr-only">Close</span></button>
-                            <h4 class="modal-title">Photography, logo #2 <span>photography, logo</span></h4>
+                            <h4 class="modal-title">Madikwe<span>photography</span></h4>
                             <!--Modal Title, Subtitle -->
                             <img src="assets/images/project.jpg" alt=""/>
                         </div>
@@ -498,9 +644,9 @@ PORTFOLIO
             <!-- ==== END PROJECT ITEM ==== -->
 
             <!-- ==== PROJECT ITEM ==== -->
-            <article class="project-item webdesign" data-toggle="modal" data-target=".project-item-4">
+            <article class="project-item logo" data-toggle="modal" data-target=".project-item-4">
                 <img class="img-responsive project-image" src="assets/images/thumb.png" alt=""><!--Project thumb -->
-                <h2 class="project-title">Webdesign #2</h2><!--Project Title -->
+                <h2 class="project-title">Data Visualization</h2><!--Project Title -->
             </article>
 
             <!--==== Project Modal ====-->
@@ -511,7 +657,7 @@ PORTFOLIO
                             <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i
                                         class="fa fa-times"></i>
 </span><span class="sr-only">Close</span></button>
-                            <h4 class="modal-title">Webdesign #2 <span>webdesign</span></h4>
+                            <h4 class="modal-title">Data Visualization<span>D3.JS</span></h4>
                             <!--Modal Title, Subtitle -->
                             <img src="assets/images/project.jpg" alt=""/>
                         </div>
@@ -530,9 +676,9 @@ PORTFOLIO
             <!-- ==== END PROJECT ITEM ==== -->
 
             <!-- ==== PROJECT ITEM ==== -->
-            <article class="project-item photography webdesign" data-toggle="modal" data-target=".project-item-5">
+            <article class="project-item logo" data-toggle="modal" data-target=".project-item-5">
                 <img class="img-responsive project-image" src="assets/images/thumb.png" alt=""><!--Project thumb -->
-                <h2 class="project-title">Photography, webdesign #1</h2><!--Project Title -->
+                <h2 class="project-title">Logo: CREATE.LA</h2><!--Project Title -->
             </article>
 
             <!--==== Project Modal ====-->
@@ -543,7 +689,7 @@ PORTFOLIO
                             <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i
                                         class="fa fa-times"></i>
 </span><span class="sr-only">Close</span></button>
-                            <h4 class="modal-title">Photography, webdesign #1 <span>photography, webdesign</span></h4>
+                            <h4 class="modal-title">CREATE.LA <span>Photoshop</span></h4>
                             <!--Modal Title, Subtitle -->
                             <img src="assets/images/project.jpg" alt=""/>
                         </div>
